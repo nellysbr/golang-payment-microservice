@@ -1,6 +1,6 @@
 # 💳 Payment Microservice
 
-Um microserviço completo de processamento de pagamentos desenvolvido em Go, simulando os desafios e tecnologias utilizadas.
+Um esboço de um microserviço completo de processamento de pagamentos desenvolvido em Go, simulando os desafios e tecnologias utilizadas.
 
 ## 🚀 Funcionalidades
 
