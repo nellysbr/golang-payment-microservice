@@ -373,36 +373,3 @@ HOST=0.0.0.0
 METRICS_PORT=2112
 METRICS_PATH=/metrics
 ```
-
-## 🤝 Contribuição
-
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 🎯 Próximos Passos
-
-- [ ] Implementar gRPC server
-- [ ] Adicionar autenticação JWT
-- [ ] Implementar rate limiting
-- [ ] Adicionar circuit breaker
-- [ ] Implementar retry policies
-- [ ] Adicionar mais validações de cartão (Luhn algorithm)
-- [ ] Implementar webhooks para notificações
-- [ ] Adicionar suporte a múltiplas moedas
-- [ ] Implementar reconciliação de pagamentos
-- [ ] Adicionar dashboard de monitoramento
-
-## 📞 Suporte
-
-Para dúvidas ou suporte, abra uma issue no repositório ou entre em contato através do email.
-
----
-
-**Desenvolvido com ❤️ para simular os desafios da CloudWalk**
