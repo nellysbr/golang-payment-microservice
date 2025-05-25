@@ -1,0 +1,26 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+rule_files:
+  # - "first_rules.yml"
+  # - "second_rules.yml"
+
+scrape_configs:
+  # Prometheus itself
+  - job_name: "prometheus"
+    static_configs:
+      - targets: ["localhost:9090"]
+
+  # Payment Microservice
+  - job_name: "payment-microservice"
+    static_configs:
+      - targets: ["payment-service:2112"]
+    metrics_path: "/metrics"
+    scrape_interval: 10s
+    scrape_timeout: 5s
+
+  # Node Exporter (if needed)
+  - job_name: "node-exporter"
+    static_configs:
+      - targets: ["node-exporter:9100"]
